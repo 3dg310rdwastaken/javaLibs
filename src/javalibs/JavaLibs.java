@@ -24,7 +24,7 @@ public class JavaLibs {
         int libsNumberTwo;
         String libsCity;
         String libsProperNoun;
-        int libsNumberFour;
+        int libsNumberFour = 2;
         String libsVerbOne;
         String libsVerbTwo;
         int libsNumberFive;
@@ -45,50 +45,70 @@ public class JavaLibs {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Please enter your first name: ");
-        firstName = sc.nextLine();
-        System.out.println("Thank you, " + firstName + " welcome to JavaLibs.");
+        firstName = sc.next();
+        
+        System.out.println("Thank you, " + firstName + ", welcome to JavaLibs.");
+        
         System.out.println("First Name:");
-        libsFirstName = sc.nextLine();        
+        libsFirstName = sc.next();        
+        
         System.out.println("Last Name:");
-        libsLastName = sc.nextLine();
+        libsLastName = sc.next();
+        
         System.out.println("Number:");
         libsNumberOne = sc.nextInt();
+        
         System.out.println("Number:");
         libsNumberTwo = sc.nextInt();
+        
         System.out.println("City Name:");
-        libsCity = sc.nextLine();
+        libsCity = sc.next();
+        
         System.out.println("Proper Noun:");
-        libsProperNoun = sc.nextLine();
+        libsProperNoun = sc.next();
+        
         System.out.println("A number from 1 to 12:");
         libsNumberFour = sc.nextInt();
+        
         System.out.println("Verb:");
-        libsVerbOne = sc.nextLine();
-        System.out.println("Verb");
-        libsVerbTwo = sc.nextLine();
+        libsVerbOne = sc.next();
+        
+        System.out.println("Verb:");
+        libsVerbTwo = sc.next();
+        
         System.out.println("A number from 1 to 12:");
         libsNumberFive = sc.nextInt();
+        
         System.out.println("Unit of time:");
-        libsUnitOfTimeOne = sc.nextLine();
+        libsUnitOfTimeOne = sc.next();
+        
         System.out.println("Drink:");
-        libsDrink = sc.nextLine();
+        libsDrink = sc.next();
+        
         System.out.println("Unit of time:");
-        libsUnitOfTimeTwo = sc.nextLine();
+        libsUnitOfTimeTwo = sc.next();
+        
         System.out.println("Living Thing:");
-        libsLivingThing = sc.nextLine();
+        libsLivingThing = sc.next();
+        
         System.out.println("Adjective:");
-        libsAdjective = sc.nextLine();
+        libsAdjective = sc.next();
+        
         System.out.println("Verb ending in -ing");
-        libsVerbEndingInIngOne = sc.nextLine();
+        libsVerbEndingInIngOne = sc.next();
+        
         System.out.println("Verb ending with -ing");
-        libsVerbEndingInIngTwo = sc.nextLine();
+        libsVerbEndingInIngTwo = sc.next();
+        
         System.out.println("Noun:");
-        libsNoun = sc.nextLine();
+        libsNoun = sc.next();
+        
         System.out.println("Verb:");
-        libsVerbThree = sc.nextLine();
+        libsVerbThree = sc.next();
                 
                 
         
-        int libsNumberThree = libsNumberOne + libsNumberTwo;
+        double libsNumberThree = libsNumberOne + libsNumberTwo;
         System.out.println("My name is " + libsFirstName + " " + libsLastName + ". I'm " + libsNumberThree + " years old. ");
         System.out.println("My house is in the northeast section of " + libsCity + ", where all the villas are, and I am not married. ");
         System.out.println("I work as an employee for the " + libsProperNoun + " department stores, and I get home every day by " + libsNumberFour + " PM at the latest. ");
